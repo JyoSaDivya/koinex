@@ -1,5 +1,9 @@
-import '@/styles/globals.css'
+import "./style.css";
 
-export default function App({ Component, pageProps }) {
-  return <Component {...pageProps} />
+import React from "react";
+export default function MyApp({
+  Component: Component,
+  pageProps: pageProps
+}) {
+  return <Component {...pageProps} />;
 }
